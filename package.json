@@ -1,7 +1,7 @@
 {
-  "name": "react-typescript-by-sample",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "React Typescript examples",
+  "description": "Portfolio",
   "main": "index.tsx",
   "scripts": {
     "start": "webpack-dev-server  --mode development --inline --hot --open",
@@ -12,7 +12,7 @@
     "typescript",
     "hooks"
   ],
-  "author": "Braulio Diez Botella",
+  "author": "Ramses",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.2.3",
