@@ -1,9 +1,10 @@
-var HtmlWebpackPlugin = require("html-webpack-plugin");
-var MiniCssExtractPlugin = require("mini-css-extract-plugin");
-var webpack = require("webpack");
-var path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const { BaseHrefWebpackPlugin } = require('base-href-webpack-plugin');
+const webpack = require("webpack");
+const path = require("path");
 
-var basePath = __dirname;
+const basePath = __dirname;
 
 module.exports = {
   context: path.join(basePath, "src"),
@@ -59,11 +60,14 @@ module.exports = {
   },
   plugins: [
     //Generate index.html in /dist => https://github.com/ampedandwired/html-webpack-plugin
+   
+    new HtmlWebpackPlugin(),
     new HtmlWebpackPlugin({
       filename: "index.html", //Name of file in ./dist/
       template: "index.html", //Name of template in ./src
       hash: true
     }),
+    new BaseHrefWebpackPlugin({ baseHref: 'https://ramses512.github.io/portfolio/' }),
     new MiniCssExtractPlugin({
       filename: "[name].css",
       chunkFilename: "[id].css"
