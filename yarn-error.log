@@ -1,0 +1,85 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add @bit/sanzhardanybayev.ui-components.tabbar
+
+PATH: 
+  C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\arams\AppData\Local\Microsoft\WindowsApps;C:\Users\arams\AppData\Local\GitHubDesktop\bin;C:\Users\arams\AppData\Local\Microsoft\WindowsApps;C:\adb;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Users\arams\AppData\Local\Microsoft\WindowsApps;C:\Users\arams\AppData\Local\GitHubDesktop\bin;C:\Users\arams\AppData\Local\Microsoft\WindowsApps;;C:\Users\arams\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\arams\AppData\Roaming\npm;C:\Users\arams\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  12.14.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@bit%2fsanzhardanybayev.ui-components.tabbar: Not found
+      at Request.params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:66056:18)
+      at Request.self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:140665:22)
+      at Request.emit (events.js:223:5)
+      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141637:10)
+      at Request.emit (events.js:223:5)
+      at IncomingMessage.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141559:12)
+      at Object.onceWrapper (events.js:312:28)
+      at IncomingMessage.emit (events.js:228:7)
+      at endReadableNT (_stream_readable.js:1185:12)
+      at processTicksAndRejections (internal/process/task_queues.js:81:21)
+
+npm manifest: 
+  {
+    "name": "react-typescript-by-sample",
+    "version": "1.0.0",
+    "description": "React Typescript examples",
+    "main": "index.tsx",
+    "scripts": {
+      "start": "webpack-dev-server  --mode development --inline --hot --open",
+      "build": "webpack  --mode development"
+    },
+    "keywords": [
+      "react",
+      "typescript",
+      "hooks"
+    ],
+    "author": "Braulio Diez Botella",
+    "license": "MIT",
+    "devDependencies": {
+      "@babel/cli": "^7.2.3",
+      "@babel/core": "^7.2.2",
+      "@babel/polyfill": "^7.2.5",
+      "@babel/preset-env": "^7.3.1",
+      "@types/react": "^16.8.3",
+      "@types/react-dom": "^16.8.1",
+      "awesome-typescript-loader": "^5.2.1",
+      "babel-loader": "^8.0.5",
+      "css-loader": "^2.1.0",
+      "file-loader": "^3.0.1",
+      "html-webpack-plugin": "^3.2.0",
+      "mini-css-extract-plugin": "^0.5.0",
+      "node-sass": "^4.13.1",
+      "sass-loader": "^8.0.2",
+      "style-loader": "^0.23.1",
+      "typescript": "^3.3.3",
+      "url-loader": "^1.1.2",
+      "webpack": "^4.29.3",
+      "webpack-cli": "^3.2.3",
+      "webpack-dev-server": "^3.1.14"
+    },
+    "dependencies": {
+      "@types/react": "^16.9.19",
+      "@types/react-dom": "^16.9.5",
+      "animate.css": "^3.7.2",
+      "bootstrap": "^4.4.1",
+      "core-js": "^3.6.4",
+      "react": "^16.8.2",
+      "react-dom": "^16.8.2",
+      "react-typing-effect": "^2.0.3",
+      "wowjs": "^1.1.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

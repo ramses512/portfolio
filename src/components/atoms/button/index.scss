@@ -1,0 +1,31 @@
+@import '../../../styles/variables';
+.btn-primary {
+  background-color: $primary;
+  border-color: $primary;
+  &:hover {
+    color: #fff;
+    background-color: $secondary;
+    border-color: $secondary;
+  }
+}
+
+.work-button {
+  margin-top: 1rem;
+  padding: 0.2rem 2rem;
+  background-color: #f8f9fa;
+  color: black;
+  border-radius: 2rem;
+  border: 1px $primary solid;
+  outline: none;
+  font-size: 1.2rem;
+  transition: ease-in 0.3s;
+  font-weight: 600;
+  &:hover {
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+  }
+  &:focus {
+    outline: 0;
+  }
+}
